@@ -1,0 +1,77 @@
+.navbar-brand{
+	font-size: 25px;
+}
+.navbar-menu-left{
+	border-right: 1px solid #ccc;
+	height: 100vh;
+}
+.main-sc{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.navbar{
+	margin-bottom: 0px !important;
+	border-radius: 0 !important;
+}
+.main-content{
+	
+	padding: 10px;
+}
+.ul-menu-left{
+	padding-left: 0 !important;
+}
+.ul-menu-left li{
+	display: block;
+}
+.ul-menu-left li a{
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	display: inline-block;
+	padding-left: 15px;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	color: #333;
+}
+.ul-menu-left li a:hover{
+	background-color: #CCFFFF;
+}
+footer{
+	text-align: center;
+	padding: 5px;
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+	font-size: 13px;
+}
+.rs{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.ul-menu-left .ul-sub{
+	padding-left: 0 !important;
+}
+.ul-menu-left .ul-sub li{
+	
+}
+.ul-menu-left .ul-sub li a{
+	padding-left: 15%;
+	font-size: 14px;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+}
+.ul-menu-left li a i{
+	font-size: 11px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 6px;
+}
+.ul-sub{
+	display: none;
+}
+.ul-menu-left .active .ul-sub{
+	display: block;
+}
+.ul-sub .active{
+	background-color: #CCFFFF;
+}
